@@ -3,7 +3,7 @@ __Welcome to my test world!!😄😄__
 ⚠️ This website(me2022.me) is valid only until april 3 2023!
 
 ## Projects 📒
-*[Project.Paint](http://imjg46.github.io/paint)
+* [Project.Paint](http://imjg46.github.io/paint)
      - Simple Paint made with vanila javascript!
      - Using large size screen is recommended!
      - Color change, Brush size, Paint/Background Mode, Save PNG, Touch Support
