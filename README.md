@@ -1,6 +1,6 @@
 __Welcome to my test world!!😄😄__
 
-⚠️ This website(me2022.me) is valid only until april 3 2023!
+⚠️ This website(me2022.me) is valid until april 3 2023!
 
 ## Projects 📒
 * [Project.Paint](http://imjg46.github.io/paint)
