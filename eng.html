@@ -30,11 +30,11 @@
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({
   	pageLanguage: 'en',
-  	includedLanguages:'en,kr,cn,jp'
+  	includedLanguages:'kr, cn'
   }, 'google_translate_element');
   setTimeout(function(){
   	var select = document.querySelector('select.goog-te-combo');
-  	select.value    = "en"; 
+  	select.value    = "kr"; 
   	select.dispatchEvent(new Event('change'));
   },1000)
 }
