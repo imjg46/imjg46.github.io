@@ -23,15 +23,18 @@
 <a href="http://imjg46.github.io/">✨Back to language selection✨</a>
 
 
+
+<div id="google_translate_element" style=""></div>
+
 <script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({
   	pageLanguage: 'en',
-  	includedLanguages:'kr'
+  	includedLanguages:'en,kr,cn,jp'
   }, 'google_translate_element');
   setTimeout(function(){
   	var select = document.querySelector('select.goog-te-combo');
-  	select.value    = "kr"; 
+  	select.value    = "en"; 
   	select.dispatchEvent(new Event('change'));
   },1000)
 }
