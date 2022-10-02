@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    border: 1px solid #333;
+    background-color: #DAEAF1;
+    padding: 5px;
+}
+
+.calculator form{
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    grid-auto-rows: 65px;
+    grid-gap: 5px;
+}
+
+.calculator form input{
+    border:0px solid #EEF1FF;
+    cursor: pointer;
+    font-size: 19px
+}
+
+.calculator form input:hover{
+    box-shadow:  1px 1px 2px #333;
+}
+
+.calculator form .clear{
+    background-color: #B1B2FF;
+}
+
+.calculator form .operator{
+    background-color: #AAC4FF;
+}
+
+.calculator form .dot{
+    background-color: #AAC4FF;
+}
+
+.calculator form .a{
+    background-color: #D2DAFF;
+}
+
+.calculator form input[type="text"]{
+    grid-column: span 4;
+    text-align: right;
+    padding: 0 10px;
+}
+
+.calculator form .clear{
+    grid-column: span 3;
+}
+
+.calculator form .result{
+    grid-column: span 2;
+}
+
+.text-rainbow-animation {
+    font-family:Arial black;
+    font-size:16px;
+    text-align: center;
+    background-image: 
+      linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 35s linear infinite;
+  }
+
+  @keyframes rainbow-animation {
+    to {
+        background-position: 3000vh;
+    }
+}
